@@ -1,10 +1,10 @@
 {
   "name": "ivan-belikov-474",
   "version": "0.0.0",
-  "homepage": "https://Ivan-Belikov.github.io",
+  "homepage": "https://Ivan-Belikov.github.io/Ivan-Belikov.github.io",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
